@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.header {
+  background-color: #ff0078;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  
+  margin-left: 20px;
+
+}
+
+.filter-container {
+  display: flex;
+  margin: 20px 0;
+  /* Center the filter controls */
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-container input, .filter-container select {
+  margin-right: 20px; /* Adjust margin for better spacing */
+}
+
+#homeee {
+  background-color: #f7e9c1;
+  color: white;
+}
+
+.background-container {
+  width: 100%;
+  height: 100vh; /* Or adjust to the height you need */
+  background-image: url('https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/parallax-1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centers the table horizontally */
+  align-items: center; /* Centers the table vertically, adjust as needed */
+}
+
+.bills-table-container {
+  width: 80%; /* Adjust this value to control the table width */
+  max-width: 1000px; /* Set a maximum width for larger screens */
+  margin: 0 auto;
+  /* Center the table container */
+}
+
+.bills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bills-table th,
+.bills-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.bills-table th {
+  background-color:  #ba47e0;
+  color: white;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.bills-table tr:nth-child(even) {
+  background-color: #ffd1e9;
+}
+
+.bills-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.bills-table tr:hover {
+  background-color: #ddd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  background-color: #ff0078;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0f8472; /* New background color for hover state */
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  align-self: center;
+  margin: 0 10px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.search-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.search-container input {
+  margin-right: 10px;
+}
+
+.search-container select {
+  margin-right: 20px;
+}

@@ -1,0 +1,59 @@
+.kopp {
+    background-image: url('https://rosieice-store-demo.myshopify.com/cdn/shop/files/bannerV2-bg.jpg?v=1704426468');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 25px;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.login-container input, .login-container select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    appearance: none;
+    font-size: 16px;
+}
+
+.login-container button {
+    background-color: #e91e63;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #fcefa7;
+    color: black;
+}

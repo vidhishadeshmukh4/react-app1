@@ -1,0 +1,75 @@
+.invoice-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light background color for the container */
+    border: 1px solid #ddd; /* Border around the container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd; /* Slightly thicker border */
+
+    margin-bottom: 20px; /* Space between header and content */
+}
+
+.invoice-logo {
+    width: 150px; /* Increased logo width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.invoice-details {
+    text-align: right;
+}
+
+.invoice-content {
+    margin-top: 20px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px; /* Increased padding */
+    background-color: #e0f7fa; /* Light blue background for better contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.customer-info {
+    text-align: right;
+}
+
+.invoice-items table {
+    width: 100%;
+    border-collapse: collapse;
+ /* Space below table */
+}
+
+.invoice-items th, .invoice-items td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better readability */
+    text-align: center; /* Center align text */
+}
+
+.invoice-items th {
+    background-color: #b2ebf2; /* Light blue background for headers */
+    font-weight: bold; /* Bold headers */
+}
+
+.invoice-items tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+}
+
+.invoice-items tr:hover {
+    background-color: #f1f1f1; /* Hover effect */
+}
+
+.invoice-total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 16px; /* Larger font size for total */
+    font-weight: bold; /* Bold text for total */
+    color: #388e3c; /* Green color for total */
+}

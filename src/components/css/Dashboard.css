@@ -1,0 +1,195 @@
+.dashboard-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+}
+
+.logo {
+    width: 100%;
+    height: 176px;
+    display: flex;
+}
+
+.lgo {
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.grrt {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-right: 20px; /* Add padding if needed to adjust spacing */
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.greeting {
+    background-color: rgb(233, 204, 249);
+    padding: 5px;
+}
+
+.logo img {
+    width: 150px; /* Adjust the logo size as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust margin if needed for spacing */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Light pink background for the navbar */
+    padding: 8px 0;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: black; /* White text */
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    background-color: #f4bdd8; /* Darker pink for hover effect */
+    border-radius: 5px;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px; /* Optional: adds rounded corners to the image */
+}
+
+.logout-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dff0d8;
+    padding: 20px;
+    border: 2px solid #3c763d;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #3c763d;
+}
+
+.message-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tick-mark {
+    color: #3c763d;
+    font-size: 24px;
+}
+
+.ads {
+    background-color: white;
+    padding: 10px 0;
+    height: 800px;
+    text-align: center; /* Center-aligns child inline elements */
+}
+
+.ads img {
+    width: 60%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures margin auto works */
+    margin: 0 auto; /* Centers the block element */
+}
+
+.ads h1{
+    text-align:center ;
+    font-family: cursive;
+
+}
+
+.discount-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add space between the items */
+    padding: 5px;
+    background-color: #fff;
+}
+
+.discount-item {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    align-items: center;
+    text-align: left; /* Align text to the left */
+    background-color: #f4c6ef;
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Increased border-radius for rounded corners */
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow for more emphasis */
+    max-width: 500px; /* Increased max width */
+    margin: 20px; /* Increased margin for more spacing */
+    transition: transform 0.3s, box-shadow 0.3s; /* Added transition for hover effect */
+}
+
+.discount-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.discount-item img {
+    width: 50%; /* Adjust width as needed */
+    height: auto;
+}
+
+.discount-details {
+    padding: 20px;
+    flex: 1; /* Take remaining space */
+}
+
+.discount-details h2 {
+    color: #0e0457;
+    font-size: 28px; /* Increased font size */
+    margin: 0 0 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.discount-details h3 {
+    color: #333;
+    font-size: 22px; /* Increased font size */
+    margin: 0 0 10px;
+}
+
+.discount-details a {
+    color: #552509;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s, color 0.3s; /* Added transition for hover effect */
+}
+
+.discount-details a:hover {
+    border-bottom: 2px solid #007bff;
+    color: #0056b3; /* Darker blue on hover */
+}
+/* 
+.nextsec {
+    background-image: url('https://rosieice-store-demo.myshopify.com/cdn/shop/files/slideshowV2-bg1.jpg?v=1704424282');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+} */
+
+
+

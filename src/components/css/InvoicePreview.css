@@ -1,0 +1,94 @@
+.invoice-preview-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.invoice-preview-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.invoice-preview-header button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.invoice-preview {
+    background: #fff;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    max-height: 80%;
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.invoice-logo {
+    width: 100px;
+}
+
+.invoice-details {
+    text-align: right;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info {
+    text-align: right;
+}
+
+.invoice-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invoice-items th, .invoice-items td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.invoice-items tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.invoice-items tr:hover {
+    background-color: #ddd;
+}
+
+.invoice-total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.thank-you {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
